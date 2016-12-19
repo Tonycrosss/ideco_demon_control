@@ -3,7 +3,7 @@ import aiohttp_jinja2
 import jinja2
 import subprocess
 
-
+print('test')
 # функция пишет цифру 1, если галочка стоит
 def write_status(enabled):
     f = open('log.txt', 'w', encoding='utf-8')
